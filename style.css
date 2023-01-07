@@ -1,0 +1,167 @@
+html 
+{
+    height:100%;
+}
+body 
+{
+    
+    height:100%;
+    margin:0;
+}
+header 
+{
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+} 
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover 
+{
+    text-decoration: underline;
+}
+h1 
+{
+    font-size: 70px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.left-side, .right-side
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.left-side
+{
+    margin-left: 15px;
+}
+.right-side
+{
+    margin-right: 15px;
+}
+.google 
+{
+    position: relative;
+    height:70%;
+    display: flex;
+    gap:15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google button 
+{
+    border-color: transparent;
+    height: 25px;
+    margin:5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.signinButton
+{
+    height:30px;
+    width:70px;
+    color:white;
+    border-width: 1px;
+    border-color: white;
+    background-color:rgb(25, 133, 200);
+    font-weight: bold;
+}
+.signinButton:hover 
+{
+    box-shadow: 2px 2px 0px rgb(208, 204, 204);
+}
+header h4 
+{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header img 
+{
+    width:20px;
+    height:20px;
+}
+footer 
+{
+   display: flex;
+   width:100%;
+   height: 5%;
+   background-color: rgb(234, 232, 232);
+   position:fixed;
+   bottom:0;  
+   justify-content: space-between;
+   color:rgb(70, 64, 64);
+}
+footer > div
+{
+    display: flex;
+    gap:15px;
+} 
+footer h5 
+{
+    position: relative;
+    bottom:15px;
+}
+.footer-l 
+{
+    margin-left: 10px;
+}
+.footer-r 
+{
+    margin-right: 15px;
+}
+form 
+{
+    width:100%;
+    text-align: center;
+}
+input 
+{
+    width:50%;
+    height:30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(222, 218, 218);
+    border-radius: 15px;
+}
+input:focus 
+{
+    outline: none;
+    border-color: rgb(230, 217, 217);
+}
+.searchbar 
+{
+    /*añadiendo dos fondos*/
+    background-image: url(./images/lupa.png), url(./images/recorder.png); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2%, 98%;
+    background-size: 15px;
+    padding-right:30px;
+    padding-left:30px;
+    box-sizing: border-box;
+}
+.menu 
+{
+    position: absolute;
+    right:10px;
+    background-color: grey;
+    width:300px;
+    height: 100%;
+    overflow-y: auto;
+}
+.credit 
+{
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+}
+.credit:hover 
+{
+    color: rgb(199, 140, 150);
+    text-decoration: underline;
+}
